@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation On Page Scroll</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <!--Header part start-->
+    <header id="home">
+        <nav class="navbar navbar-expand-md ">
+            <div class="container">
+                <a href="index.html" class="logo ">Web<span>Dev</span> </a>
+                <button class="navbar-toggler " data-toggle="collapse" data-target="#mainNav"><i class="fas fa-bars"></i></button>
+               <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home"> home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services"> services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project"> project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog"> blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"> contact</a>
+                    </li>
+                </ul>
+               </div>
+            </div>
+        </nav>
+        <!--Hero part start-->
+        <div class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="hero-info ">
+                            <h1>I'm a Web Designer & Developer.</h1>
+                            <h2 text= "Perfcact solution Of Your Web Problem ." >Perfcact solution Of Your Web Poblem.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam excepturi qui consequuntur ab a rerum iste eum dolores, maiores obcaecati nemo eos, pariatur alias animi omnis quia. Ex, itaque possimus?</p>
+                            <a class="hero-btn hero-btn1" href="index.html">Read More</a>
+                            <a class="hero-btn hero-btn2" href="" data-toggle="modal" data-target="#contactModal">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <img src="images/Businessman-Transparent.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Hero part End-->
+        <div id="contactModal" class="modal py-5">
+            <div class="container">
+               <div class="modal-dialog">
+                   <div class="modal-content">
+                       <div class="modal-header">
+                           <h3>Contact us</h3>
+                           <button class="close modal-close-btn" data-dismiss="modal">&times;</button>
+                       </div>
+                       <div class="modal-body">
+                           <form>
+                               <div class="form-group">
+                                   <input class="form-control" type="text" placeholder="Your Name">
+                               </div>
+                               <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Your email">
+                            </div>
+                            <textarea class="form-control mb-4" placeholder="Your Message" name="message" id="message" cols="30" rows="5"></textarea>
+                            <input type="submit" value="Send" class="btn btn-primary">
+                           </form>
+                       </div>
+                   </div>
+               </div>
+
+            </div>
+        </div>
+    </header>
+    <!--Header part End-->
+
+<section id="services">
+    <div class="container">
+        <div class="services-info text-center">
+            <div class="  services-info-text services-info-text1">
+                <h2>Our Customer Services</h2>
+            </div>
+        <div class=" services-info-text services-info-text2 ">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit placeat doloremque dolores minus non delectus autem temporibus, nam dolorum blanditiis obcaecati illum nesciunt, sit repellendus et, distinctio quos molestiae exercitationem!</p>
+        </div>  
+           
+        </div>
+        <div class="row ">
+          
+            <div class="col-lg-4 col-md-6">
+                <div class="services-item text-center mb-5 services-item1">
+                    <img src="images/ux-design.png" alt="">
+                    <h3>UI/UX</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, repudiandae, consectetur maiores praesentium fuga similique quod blanditiis cumque suscipit explicabo vero sed culpa, </p>
+                    <a href="#"class= "btn btn-outline-light mb-4">Read More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="services-item text-center mb-5 services-item2 ">
+                    <img src="images/programming.png" alt="">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, repudiandae, consectetur maiores praesentium fuga similique quod blanditiis cumque suscipit explicabo vero sed culpa, </p>
+                    <a href="#"class= "btn btn-outline-light  mb-4">Read More</a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="services-item text-center mb-5 services-item3">
+                    <img src="images/web-design.png" alt="">
+                    <h3>Web Design </h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, repudiandae, consectetur maiores praesentium fuga similique quod blanditiis cumque suscipit explicabo vero sed culpa, .</p>
+                    <a href="#"class= "btn btn-outline-light  mb-4">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about">
+    <div class="container">
+        <div class="about-info about-animation ">
+            <h2>About Me</h2>
+            <hr class="about-underline">
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-10 about-img about-animation services-item-active ">
+                <img src="images/businessman-zob.png" alt="">
+            </div>
+           
+            <div class="col-lg-8">
+              <div class="container">
+                <div class=" about-animation skill-animation">
+                    <div class="row our-skill">
+                        <div class="message"></div>
+                        <div class="col-lg-6 our-info  text-center">
+                            <h4>Our Info</h4>
+                            <p >I am Sabbir Hossen , web developer form Bangladesg. I have rich experience in web site design and building and customization , also I am good at Javascript</p>
+                            <a href="#">Download cv</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="container">
+                                <div class="skill-ber one">
+                                    <h5>Development</h5>
+                                    <p>80%</p>
+                                    <div class="skill"></div>
+                                </div>
+                                <div class="skill-ber two">
+                                    <h5>Web Design</h5>
+                                    <p>95%</p>
+                                    <div class="skill"></div>
+                                </div>
+                                <div class="skill-ber three">
+                                    <h5>UI/UX</h5>
+                                    <p>85%</p>
+                                    <div class="skill"></div>
+                                </div>
+                                <div class="skill-ber four">
+                                    <h5>Graphic Design</h5>
+                                    <p>70%</p>
+                                    <div class="skill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          
+              </div>
+            </div>
+        </div>
+        <div class="experence-header ">
+            <h3>Experence</h3>
+        </div>
+        <div class="row">
+            
+            <div class="col-lg-6">
+                <div class="experence experience1 mb-5 about-animation">
+                   <div class="container">
+                    <div class="experence-info">
+                      <div class="row">
+                            <div class="col-2 col-sm-1">
+                                <i class="fas fa-graduation-cap"></i>
+                                <hr class="colum">  
+                            </div>
+                            <div class="col-10  col-sm-11">
+
+                                <small>2020-present</small>
+                                <h4>academic degree</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, id? Maxime tempora perferendis animi </p>
+                            </div>
+                        </div>
+                          
+                    </div>
+                   
+                    <div class="experence-info">
+                        <div class="row">
+                            <div class="col-2 col-sm-1">
+                                <i class="fas fa-graduation-cap"></i>
+                                <hr class="colum">  
+                            </div>
+                            <div class="col-10  col-sm-11">
+
+                                <small>2017-2013</small>
+                                <h4>bachelors's degree</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, id? Maxime tempora perferendis animi </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experence-info">
+                        <div class="row">
+                            <div class="col-2 col-sm-1">
+                                <i class="fas fa-graduation-cap"></i>
+                                <hr class="colum">  
+                            </div>
+                            <div class="col-10  col-sm-11">
+
+                                <small>2013-2009</small>
+                                <h4>horours degree</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, id? Maxime tempora perferendis animi </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                   </div>
+                </div>
+            
+            <div class="col-lg-6">
+                <div class="experence experience2 about-animation">
+                  <div class="container">
+                    <div class="experence-info">
+                        <div class="row">
+                            <div class="col-2 col-sm-1">
+                                <i class="fas fa-briefcase"></i>
+                                <hr class="colum">  
+                            </div>
+                            <div class="col-10  col-sm-11">
+
+                                <small>2020-present</small>
+                                <h4>Back-End development</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, id? Maxime tempora perferendis animi </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experence-info">
+                        <div class="row">
+                            <div class="col-2 col-sm-1">
+                                <i class="fas fa-briefcase"></i>
+                                <hr class="colum">  
+                            </div>
+                            <div class="col-10  col-sm-11">
+
+                                <small>2019-2018</small>
+                                <h4>Font-End development</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, id? Maxime tempora perferendis animi </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experence-info">
+                        <div class="row">
+                            <div class="col-2 col-sm-1">
+                                <i class="fas fa-briefcase"></i>
+                                <hr class="colum">  
+                            </div>
+                            <div class="col-10  col-sm-11">
+
+                                <small>2018-2017</small>
+                                <h4>ui / ux design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, id? Maxime tempora perferendis animi </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id="project">
+    <div class="container">
+        <div class="project-info ">
+            <h2>Our Recent Project</h2>
+          
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="project-box project-box1 ">
+                    <div class="project-box-header">
+                        <img src="images/project (4).jpg" alt="">
+                    </div>
+                    <div class="project-box-info">
+                        <h4>Divi Template</h4>
+                        <p>Html Css Javascript Php</p>
+                        <a href="#">Live Preview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="project-box project-box2 ">
+                    <div class="project-box-header">
+                        <img src="images/project (1).jpg" alt="">
+                    </div>
+                    <div class="project-box-info">
+                        <h4>Donate Template</h4>
+                        <p>Html Css Javascript</p>
+                        <a href="#">Live Preview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="project-box project-box3 ">
+                    <div class="project-box-header">
+                        <img src="images/project(6).jpg" alt="">
+                    </div>
+                    <div class="project-box-info">
+                        <h4>Medical Template</h4>
+                        <p>Html Css  Node Js</p>
+                        <a href="#">Live Preview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="project-box project-box4 ">
+                    <div class="project-box-header">
+                        <img src="images/project (3).jpg" alt="">
+                    </div>
+                    <div class="project-box-info">
+                        <h4>Arcov Template</h4>
+                        <p>Html Css Javascript Php</p>
+                        <a href="#">Live Preview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="project-box project-box5">
+                    <div class="project-box-header">
+                        <img src="images/project (4).jpg" alt="">
+                    </div>
+                    <div class="project-box-info">
+                        <h4>Learner Template</h4>
+                        <p>Html Css Javascript </p>
+                        <a href="#">Live Preview</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="project-box project-box6 ">
+                    <div class="project-box-header">
+                        <img src="images/project (1).jpg" alt="">
+                    </div>
+                    <div class="project-box-info">
+                        <h4>Cvert Template</h4>
+                        <p>Html Css  Php</p>
+                        <a href="#">Live Preview</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="project-view">View All</a>
+            
+        </div>
+    </div>
+</section>
+<section id="blog">
+    <div class="container">
+        <div class="blog-info">
+            <h2>our recent post</h2>
+            <hr class="underline">
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="blog blog1 ">
+                        <img src="images/blog1.jpg" alt="">
+                        <small class = "post-time">sep 25, 2020</small>
+                        <h3>facebook incorrect design in wordpress</h3>
+                </div>
+                   
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="blog blog2">
+                        <img src="images/blog2.jpg" alt="">
+                        <small class = "post-time">sep 10, 2020</small>
+                        <h3>embed content on web page in Javascript</h3>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="blog blog3">
+                        <img src="images/blog3.jpg" alt="">
+                        <small class = "post-time">aug 7, 2020</small>
+                        <h3>academic lending page development </h3>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="container">
+       <div class="row">
+           <div class="col-lg-8 header-center">
+            <div class="contact-header">
+                <h5>contact us</h5>
+                <h4>Worldwide Network</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel nemo deserunt ipsam. Incidunt vel eos excepturi perspiciatis ullam exercitationem voluptatibus!</p>
+            </div>
+           </div>
+       </div>
+        <div class="row">
+            <div class="col-lg-8 form-center">
+               <form>
+                <div class="contact-form">
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="email" placeholder="Your Email">
+                    </div>
+                    <textarea class="form-control" name="message" id="message" cols="30" rows="5" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Submit Now" class="form-submit">
+                </div>
+               </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+               <div class="newsletter">
+                <h4>newsletter</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus dolorum harum qui. Facere ullam perferendis labore blanditiis aperiam at alias!</p>
+               </div>
+            </div>
+            <div class="col-lg-4 pt-5 pb-4">
+                <div class="input-group ">
+                    <input type="email" placeholder="Add your mail" class="form-control">
+                    <div class="input-group-append">
+                        <a href="#" class="subscribe">subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+            <div class="row pb-3 ">
+                <div class="col-lg-3 col-md-6">
+                   <div class="contact-info">
+                    <h4>Important Link</h4>
+                    <ul>
+                       <li>
+                        <a href="#home">Home</a>
+                       </li>
+                       <li>
+                        <a href="#about">About</a>
+                       </li>
+                       <li>
+                        <a href="#project">Project</a>
+                       </li>
+                       <li>
+                        <a href="#blog">Blog</a>
+                       </li>
+                      
+                    </ul>
+                   </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                   <div class="contact-info">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>
+                         <a href="#">Web Design</a>
+                        </li>
+                        <li>
+                         <a href="#">Development</a>
+                        </li>
+                        <li>
+                         <a href="#">UI/UX</a>
+                        </li>
+                        <li>
+                         <a href="#">Graphic</a>
+                        </li>
+                       
+                     </ul>
+                   </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-info">
+                        <h4>Company</h4>
+                        <ul>
+                            <li>
+                             <a href="#">Terms and conditions</a>
+                            </li>
+                            <li>
+                             <a href="#">Licenses</a>
+                            </li>
+                            <li>
+                             <a href="#">Market API</a>
+                            </li>
+                            <li>
+                             <a href="#">Career and Jobs</a>
+                            </li>
+                           
+                         </ul>
+                       </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="contact-info text-center">
+                        <h4>Need Any Help?</h4>
+                        <ul>
+                            <li>
+                             <a href="#"><i class="fa fa-envelope"></i>smsabbir925@gmail.con</a>
+                            </li>
+                            <li>
+                             <a href="#" ><i class="fas fa-phone-volume"></i>01303238290</a>
+                            </li>
+                          
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-google-plus"></i>
+                            <i class="fab fa-instagram"></i>
+                           
+                         </ul>
+                       </div>
+                </div>
+            </div>
+          </div>
+      </div>
+   
+</section>
+<footer class="text-center ">
+    <h4>Copyright @ 2020 Design By Sabbir Hossen</h4>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/bfbb2cb6a4.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
